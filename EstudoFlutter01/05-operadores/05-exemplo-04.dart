@@ -1,6 +1,8 @@
 // 05-exemplo-04.dart
 // Operadores Lógicos
 
+// ignore_for_file: dead_code
+
 void main() {
 // Operadores lógicos
   bool f = true;

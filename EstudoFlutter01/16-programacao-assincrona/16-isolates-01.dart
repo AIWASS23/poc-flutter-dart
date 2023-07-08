@@ -9,6 +9,6 @@ void minhaFuncao() {
 }
 
 main() async {
-  await Isolate.spawn(minhaFuncao);
+  await Isolate.spawn(minhaFuncao as void Function(dynamic));
   print('Executando na thread principal');
 }

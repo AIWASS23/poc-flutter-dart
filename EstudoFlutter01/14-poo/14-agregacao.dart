@@ -1,5 +1,7 @@
 // Agregação e Composição
 
+// ignore_for_file: unused_field
+
 class Dependente {
   late String _nome;
 
